@@ -1,13 +1,15 @@
 
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { useForm } from 'react-hook-form';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from '@/components/ui/form';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
+import { toast } from '@/hooks/use-toast';
 
 const Login = () => {
+  const navigate = useNavigate();
   const form = useForm({
     defaultValues: {
       email: '',
@@ -17,7 +19,20 @@ const Login = () => {
 
   const onSubmit = (data: any) => {
     console.log('Login data:', data);
-    // Adicionar lógica de autenticação aqui
+    // Demo authentication - accept any credentials
+    toast({
+      title: "Login bem-sucedido!",
+      description: "Bem-vindo(a) de volta ao BeautyBloom.",
+    });
+    navigate('/dashboard');
+  };
+  
+  const handleDevBypass = () => {
+    toast({
+      title: "Acesso de Desenvolvedor",
+      description: "Entrando no modo de desenvolvedor",
+    });
+    navigate('/dashboard');
   };
 
   return (
@@ -84,6 +99,16 @@ const Login = () => {
                 </Button>
               </form>
             </Form>
+            
+            <div className="mt-4 text-center">
+              <Button 
+                variant="ghost" 
+                className="text-xs text-muted-foreground hover:text-beauty-600"
+                onClick={handleDevBypass}
+              >
+                Dev Access
+              </Button>
+            </div>
           </CardContent>
           <CardFooter className="flex flex-col space-y-2">
             <div className="text-center text-sm">

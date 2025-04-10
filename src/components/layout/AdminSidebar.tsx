@@ -66,7 +66,7 @@ export function AdminSidebar() {
             <SidebarMenu>
               {mainMenuItems.map((item) => (
                 <SidebarMenuItem key={item.path}>
-                  <SidebarMenuButton asChild active={isActive(item.path)}>
+                  <SidebarMenuButton asChild>
                     <Link 
                       to={item.path}
                       className={cn(
@@ -92,7 +92,7 @@ export function AdminSidebar() {
             <SidebarMenu>
               {secondaryMenuItems.map((item) => (
                 <SidebarMenuItem key={item.path}>
-                  <SidebarMenuButton asChild active={isActive(item.path)}>
+                  <SidebarMenuButton asChild>
                     <Link 
                       to={item.path}
                       className={cn(
