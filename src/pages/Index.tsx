@@ -25,7 +25,7 @@ const Index = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <Card className="bg-white/50 backdrop-blur-sm border-muted hover:border-beauty-300 transition-all duration-300">
+          <Card className="bg-white/50 backdrop-blur-sm border-muted hover:border-purple-300 transition-all duration-300">
             <CardContent className="p-6 flex flex-col items-center text-center space-y-4">
               <div className="w-12 h-12 rounded-full beauty-gradient flex items-center justify-center text-white text-xl">
                 1
@@ -37,7 +37,7 @@ const Index = () => {
             </CardContent>
           </Card>
           
-          <Card className="bg-white/50 backdrop-blur-sm border-muted hover:border-beauty-300 transition-all duration-300">
+          <Card className="bg-white/50 backdrop-blur-sm border-muted hover:border-purple-300 transition-all duration-300">
             <CardContent className="p-6 flex flex-col items-center text-center space-y-4">
               <div className="w-12 h-12 rounded-full beauty-gradient flex items-center justify-center text-white text-xl">
                 2
@@ -49,7 +49,7 @@ const Index = () => {
             </CardContent>
           </Card>
           
-          <Card className="bg-white/50 backdrop-blur-sm border-muted hover:border-beauty-300 transition-all duration-300">
+          <Card className="bg-white/50 backdrop-blur-sm border-muted hover:border-purple-300 transition-all duration-300">
             <CardContent className="p-6 flex flex-col items-center text-center space-y-4">
               <div className="w-12 h-12 rounded-full beauty-gradient flex items-center justify-center text-white text-xl">
                 3
