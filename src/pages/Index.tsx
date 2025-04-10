@@ -12,7 +12,7 @@ const Index = () => {
           <div className="flex justify-center">
             <div className="w-20 h-20">
               <img 
-                src="/lovable-uploads/6a81130e-9f17-45e0-8c72-dbf57afafa46.png" 
+                src="/lovable-uploads/0d00ed21-826d-4196-88bb-53502a17e8f2.png" 
                 alt="Vizzua Logo" 
                 className="h-full w-full object-contain"
               />
