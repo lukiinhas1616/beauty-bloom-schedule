@@ -22,7 +22,7 @@ const Login = () => {
     // Demo authentication - accept any credentials
     toast({
       title: "Login bem-sucedido!",
-      description: "Bem-vindo(a) de volta ao BeautyBloom.",
+      description: "Bem-vindo(a) de volta ao Vizzua.",
     });
     navigate('/dashboard');
   };
@@ -40,11 +40,15 @@ const Login = () => {
       <div className="w-full max-w-md space-y-8">
         <div className="text-center">
           <div className="flex justify-center">
-            <div className="w-12 h-12 rounded-full beauty-gradient flex items-center justify-center text-white font-bold text-xl">
-              B
+            <div className="w-12 h-12">
+              <img 
+                src="/lovable-uploads/6a81130e-9f17-45e0-8c72-dbf57afafa46.png" 
+                alt="Vizzua Logo" 
+                className="h-full w-full object-contain"
+              />
             </div>
           </div>
-          <h1 className="mt-4 text-3xl font-bold beauty-gradient-text">BeautyBloom</h1>
+          <h1 className="mt-4 text-3xl font-bold">Vizzua</h1>
           <p className="mt-2 text-muted-foreground">
             Acesse sua conta para gerenciar seu salão de beleza
           </p>
@@ -126,7 +130,7 @@ const Login = () => {
         </Card>
         
         <div className="text-center text-xs text-muted-foreground">
-          <p>© 2025 BeautyBloom. Todos os direitos reservados.</p>
+          <p>© 2025 Vizzua. Todos os direitos reservados.</p>
         </div>
       </div>
     </div>

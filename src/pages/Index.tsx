@@ -10,11 +10,15 @@ const Index = () => {
       <div className="w-full max-w-4xl text-center space-y-8 animate-fade-in">
         <div>
           <div className="flex justify-center">
-            <div className="w-20 h-20 rounded-full beauty-gradient flex items-center justify-center text-white font-bold text-3xl">
-              B
+            <div className="w-20 h-20">
+              <img 
+                src="/lovable-uploads/6a81130e-9f17-45e0-8c72-dbf57afafa46.png" 
+                alt="Vizzua Logo" 
+                className="h-full w-full object-contain"
+              />
             </div>
           </div>
-          <h1 className="mt-6 text-4xl md:text-5xl font-bold beauty-gradient-text">BeautyBloom</h1>
+          <h1 className="mt-6 text-4xl md:text-5xl font-bold">Vizzua</h1>
           <p className="mt-4 text-xl text-muted-foreground">
             Sistema de agendamento para salões de beleza e estética
           </p>
@@ -72,7 +76,7 @@ const Index = () => {
         </div>
 
         <footer className="text-center text-sm text-muted-foreground mt-12">
-          <p>© 2025 BeautyBloom. Todos os direitos reservados.</p>
+          <p>© 2025 Vizzua. Todos os direitos reservados.</p>
         </footer>
       </div>
     </div>

@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Bell, Search, User } from 'lucide-react';
+import { Bell, Search, User, Settings, LogOut } from 'lucide-react';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { Button } from '@/components/ui/button';
 import { SidebarTrigger } from '@/components/ui/sidebar';
@@ -50,7 +50,7 @@ export function AdminHeader() {
                 <div className="flex flex-col space-y-1">
                   <p className="text-sm font-medium leading-none">João Silva</p>
                   <p className="text-xs leading-none text-muted-foreground">
-                    joao@beautybloom.com
+                    joao@vizzua.com
                   </p>
                 </div>
               </DropdownMenuLabel>
@@ -75,5 +75,3 @@ export function AdminHeader() {
     </header>
   );
 }
-
-import { Settings, LogOut } from 'lucide-react';

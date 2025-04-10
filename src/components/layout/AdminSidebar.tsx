@@ -51,10 +51,14 @@ export function AdminSidebar() {
     <Sidebar>
       <SidebarHeader className="py-6">
         <div className="flex items-center px-4">
-          <div className="w-8 h-8 rounded-full beauty-gradient flex items-center justify-center text-white font-bold text-lg">
-            B
+          <div className="h-8 w-8">
+            <img 
+              src="/lovable-uploads/6a81130e-9f17-45e0-8c72-dbf57afafa46.png" 
+              alt="Vizzua Logo" 
+              className="h-full w-full object-contain"
+            />
           </div>
-          <h1 className="ml-2 text-xl font-semibold beauty-gradient-text">BeautyBloom</h1>
+          <h1 className="ml-2 text-xl font-semibold">Vizzua</h1>
         </div>
         <SidebarTrigger className="absolute right-2 top-6 lg:hidden" />
       </SidebarHeader>
